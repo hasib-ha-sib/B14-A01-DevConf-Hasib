@@ -45,3 +45,41 @@ body{
     border-radius:7px;
     
 }
+
+/* Banner (hero) section */
+
+.hero{
+    height:800px;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    
+    url("assets/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-content{
+    color:white;
+    width:80%;
+}
+
+.hero-content h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+
+
+.hero-content p{
+    font-size:16px;
+    line-height:28px;
+    margin-bottom:35px;
+}
+.hero .btn{
+    font-size:20px;
+    padding:20px 60px;
+}
