@@ -1,140 +1,297 @@
-
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    font-family:Arial, sans-serif;
+body {
+    font-family: Arial, sans-serif;
 }
 
 /* Navbar */
 
-.navbar{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 80px;
-    border-bottom:1px solid #573737;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    border-bottom: 1px solid #573737;
 }
 
-.logo h2{
-    font-size:20px;
-    line-height:1px;
+.logo h2 {
+    font-size: 20px;
+    line-height: 1px;
 }
 
-.nav-menu{
-    list-style:none;
-    display:flex;
-    gap:40px;
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
 }
 
-.nav-menu a{
-    text-decoration:none;
-    color:black;
-    font-size:14px;
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
 }
 
-.btn{
-    background:#082db3;
-    color:white;
-    border:none;
-    padding:10px 20px;
-    border-radius:7px;
-    
+.btn {
+    background: #082db3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+
 }
 
 /* Banner (hero) section */
 
-.hero{
-    height:800px;
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-    
-    url("assets/banner.jpg");
+.hero {
+    height: 800px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
 
-    background-size:cover;
-    background-position:center;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+        url("assets/banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.hero-content{
-    color:white;
-    width:80%;
+.hero-content {
+    color: white;
+    width: 80%;
 }
 
-.hero-content h1{
-    font-size:60px;
-    margin-bottom:20px;
+.hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
 }
 
 
 
-.hero-content p{
-    font-size:16px;
-    line-height:28px;
-    margin-bottom:35px;
+.hero-content p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 35px;
 }
-.hero .btn{
-    font-size:20px;
-    padding:20px 60px;
+
+.hero .btn {
+    font-size: 20px;
+    padding: 20px 60px;
 }
 
 /* Speaker section */
 
-.speakers{
-    padding:70px 80px;
-    background:#ffffff;
+.speakers {
+    padding: 70px 80px;
+    background: #ffffff;
 }
 
-.speakers h2{
-    text-align:center;
-    font-size:50px;
-    margin-bottom:40px;
+.speakers h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
     font-weight: bold
 }
 
-.speaker-container{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:30px;
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
 
-.speaker-card{
-    border:1px solid #dddddd;
-    border-radius:8px;
-    overflow:hidden;
-    background:#ffffff;
+.speaker-card {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #ffffff;
 }
 
-.speaker-card img{
-    width:100%;
-    height:450px;
-    object-fit:cover;
+.speaker-card img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
 }
 
 
-.speaker-card .category{
-    color:#1c41c7;
-    font-size:16px;
-    margin:15px 20px 5px;
+.speaker-card .category {
+    color: #1c41c7;
+    font-size: 16px;
+    margin: 15px 20px 5px;
     font-weight: bolder;
 }
 
 
-.speaker-card h3{
-    margin:0 20px 8px;
+.speaker-card h3 {
+    margin: 0 20px 8px;
 
-    font-size:20px;
+    font-size: 20px;
 }
 
-.speaker-card p{
-    margin:0 20px 20px;
-    color:#555555;
-    font-size:14px;
-    
+.speaker-card p {
+    margin: 0 20px 20px;
+    color: #555555;
+    font-size: 14px;
+
+}
+
+
+/* --- Pricing Section Styles --- */
+.pricing-section {
+    font-family: sans-serif;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 4rem 0;
+    color: #0b192c;
+}
+
+.pricing-header {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.pricing-section .decorative-line {
+    display: inline-block;
+    width: 24px;
+    height: 3px;
+    background-color: #ec4899;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}
+
+.pricing-header h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0b192c;
+    margin: 0 0 0.75rem 0;
+    letter-spacing: -1px;
+}
+
+.pricing-header p {
+    font-size: 1.125rem;
+    color: #4b5563;
+    margin: 0;
+}
+
+
+
+
+/* --- Pricing section --- */
+.pricing-section {
+    font-family: sans-serif;
+    width: 1400px;
+    margin: 0 auto;
+    color: #0b192c;
+}
+
+.pricing-header {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+
+
+.pricing-header h2 {
+    font-size: 3rem;
+    margin: 1rem 0 0.75rem 0;
+}
+
+.pricing-header p {
+    font-size: 1.125rem;
+    color: #4b5563;
+}
+
+
+.pricing-grid {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.pricing-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 1rem;
+    padding: 2.5rem 2rem;
+    flex: 1;
+}
+
+.card-featured {
+    background-color: #0b192c;
+    color: #ffffff;
+    border: none;
+}
+
+
+.plan-name {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #6b7280;
+}
+
+.text-accent {
+    color: #c9cdd3;
+}
+
+.price {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.price-sub {
+    font-size: 0.8rem;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 2rem 0;
+}
+
+.divider-dark {
+    border-top: 1px solid #5c6777;
+}
+
+
+.features-list {
+    color: #39475a;
+    padding-left: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.text-muted-dark {
+    color: #9ca3af;
+}
+
+.features-list li {
+    margin-bottom: 1rem;
+}
+
+
+.btn {
+    width: 100%;
+    padding: 0.875rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1.5px solid #2563eb;
+    color: #2563eb;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    border: none;
+    color: #ffffff;
+}
+
+.btn-dark {
+    background: transparent;
+    border: 1.5px solid #0c66e4;
+    color: #0a6cf5;
 }
