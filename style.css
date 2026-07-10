@@ -1,0 +1,47 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+/* Navbar */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+    border-bottom:1px solid #573737;
+}
+
+.logo h2{
+    font-size:20px;
+    line-height:1px;
+}
+
+.nav-menu{
+    list-style:none;
+    display:flex;
+    gap:40px;
+}
+
+.nav-menu a{
+    text-decoration:none;
+    color:black;
+    font-size:14px;
+}
+
+.btn{
+    background:#082db3;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:7px;
+    
+}
