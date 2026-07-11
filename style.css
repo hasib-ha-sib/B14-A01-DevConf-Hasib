@@ -336,3 +336,37 @@ body {
     margin:10px 0;
     color:#333;
 }
+
+
+/* Footer */
+
+.footer{
+    background-color:#101d30;
+    color:white;
+    padding:30px 80px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.footer-logo h2{
+    font-size:20px;
+}
+
+.footer-social a{
+    text-decoration:none;
+    color:white;
+    margin-left:15px;
+}
+
+.footer hr{
+    margin-bottom:20px;
+}
+
+.footer p{
+    text-align:center;
+}
